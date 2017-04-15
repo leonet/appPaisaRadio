@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="co.com.actualidadeducativa.app" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Educación al día</name>
-  <description>
-        Tendras a la mano las noticias de Educación al día, asi como la emisora digital en vivo de la página www.actualidadeducativa.com.co.
-    </description>
-  <author email="leonet@leonetcomunicaciones.com" href="http://leonetcomunicaciones.com/">
-      Leonardo Fabio Cadavid (LeoNet)
-    </author>
+<widget id="com.paisaradio.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+   <name>Paisa Radio</name>
+  <description>Emisora virtual Paisa Radio! emitiendo desde Uramita Antioquia para el mundo !!!</description>
+  <author href="http://leonetcomunicaciones.com" email="soporte@leonetcomunicaciones.com">LeoNetCo</author>
   <content src="index.html"/>
   <access origin="*"/>
+  <access origin="127.0.0.1*"/> <!-- allow local pages -->
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+  
+    <allow-intent href="http://62.210.209.179:*/*"/>
+    
+    <allow-intent href="http://paisaradio.com*"/>
   
   <preference name="android-build-tool" value="gradle" />  
   <preference name="webviewbounce" value="false"/>
