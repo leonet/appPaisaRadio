@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.paisaradio.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
    <name>Paisa Radio</name>
-  <description>Emisora virtual Paisa Radio! emitiendo desde Uramita Antioquia para el mundo !!!</description>
+  <description>Emisora virtual Paisa Radio! emitiendo desde Uramita Antioquia para el mundo entero!!!</description>
   <author href="http://leonetcomunicaciones.com" email="soporte@leonetcomunicaciones.com">LeoNetCo</author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -85,4 +85,7 @@
     <allow-intent href="itms:*"/>
     <allow-intent href="itms-apps:*"/>
   </platform>    
+    <uses-permission
+    android:name="android.permission.READ_PHONE_STATE"
+    tools:node="remove" />
 </widget>
